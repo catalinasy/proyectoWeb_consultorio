@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo|Major+Mono+Display');
+/* font-family: 'Major Mono Display', monospace;
+font-family: 'KoHo', sans-serif; */
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'KoHo', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    padding: 0;
+    max-height: 5%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px 18px #E6E6E6;
+    margin-bottom: 5%;
+}
+
+.logo{
+    min-width: 20%;
+    border: black 4px solid;
+    font-family: 'Major Mono Display', monospace;
+    margin: 1% 2%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.contenedorLinks{
+    display: flex;
+    justify-content: space-around;
+    min-width: 50%;
+}
+
+.link{
+    padding: 5%;
+}
+
+.profesional{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+p{  display: flex;
+    text-align: justify;}
+
+#contenedorAvatar{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 10% 0;
+    padding: 0 10%;
+}
+.profesional img{width: 60%;
+    
+}
+
+.title{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 350%;
+    margin-top: 5%;
+    align-self: center;
+}
+
+.contenedorTexto{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    padding: 2% 30%;
+
+
+}
